@@ -1,0 +1,60 @@
+.hide{
+    display: none;
+}
+
+.car, .enemy {
+    width: 50px;
+    height: 100px;
+    background: transparent url('./image/player.png') center / cover no-repeat;
+    position: absolute;
+}
+
+.gameArea {
+    margin-top: 50px;
+    width: 300px;
+    height: 650px;
+    position: relative;
+    margin: auto;
+    background: #222;
+    overflow: hidden;
+}
+
+.line {
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    background: #fff;
+    left: 145px;
+}
+
+.start {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    z-index: 200;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: #000;
+    font-family: serif;
+    font-weight: 700;
+}
+
+.score {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    padding: 1rem 0;
+    z-index: 200;
+    font-size: 1.5 rem;
+    color: skyblue;
+    text-align: center;
+    font-family: serif;
+    font-weight: 500;
+}
